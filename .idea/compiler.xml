@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloud_06category" />
+        <module name="springcloud_01eureka_server" />
+        <module name="springcloud_04users" />
+        <module name="springcloud_05orders" />
+        <module name="springcloud_02eureka_client" />
+        <module name="springcloud_03consulclient" />
+        <module name="springcloud_07product" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springcloud_01eureka_server" options="-parameters" />
+      <module name="springcloud_02eureka_client" options="-parameters" />
+      <module name="springcloud_03consulclient" options="-parameters" />
+      <module name="springcloud_04users" options="-parameters" />
+      <module name="springcloud_05orders" options="-parameters" />
+      <module name="springcloud_06category" options="-parameters" />
+      <module name="springcloud_07product" options="-parameters" />
+      <module name="springcloud_parent" options="" />
+    </option>
+  </component>
+</project>

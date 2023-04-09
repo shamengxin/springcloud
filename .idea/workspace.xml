@@ -3,21 +3,455 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b22d0ddb-099e-4e9c-b951-94683801b09b" name="变更" comment="4.8">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_01eureka_server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_01eureka_server/src/main/java/com/shamengxin/EurekaServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_01eureka_server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_02eureka_client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_02eureka_client/src/main/java/com/shamengxin/EurekaClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_02eureka_client/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_03consulclient/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_03consulclient/src/main/java/com/shamengxin/ConsulClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_03consulclient/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_04users/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_04users/src/main/java/com/shamengxin/UsersApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_04users/src/main/java/com/shamengxin/config/BeansConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_04users/src/main/java/com/shamengxin/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_04users/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_05orders/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_05orders/src/main/java/com/shamengxin/OrdersApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_05orders/src/main/java/com/shamengxin/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_05orders/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_06category/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_06category/src/main/java/com/shamengxin/CategoryApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_06category/src/main/java/com/shamengxin/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_06category/src/main/java/com/shamengxin/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_06category/src/main/java/com/shamengxin/feiginclient/ProductClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_06category/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_07product/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_07product/src/main/java/com/shamengxin/ProductApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_07product/src/main/java/com/shamengxin/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_07product/src/main/java/com/shamengxin/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_07product/src/main/java/com/shamengxin/vos/CollectionVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_07product/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="PARALLEL_COMPILATION" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="B:/Maven/apache-maven-3.8.7" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../Maven/apache-maven-3.8.7" />
         <option name="userSettingsFile" value="B:\Maven\apache-maven-3.8.7\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="13" />
+    <option name="skipTests" value="true" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="2O9AeVoj1PAiAqyDecIp1BcOLbA" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;last_opened_file_path&quot;: &quot;B:/code&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "B:/code/springcloud/springcloud_parent/springcloud_05orders/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reactor",
+    "spring.configuration.checksum": "38a4be43d36e589a32fc67f9f9ca3541",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="B:\code\springcloud\springcloud_parent\springcloud_05orders\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ProductApplication 8799">
+    <configuration name="CategoryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" />
+      <module name="springcloud_06category" />
+      <selectedOptions>
+        <option name="vmParameters" />
+      </selectedOptions>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shamengxin.CategoryApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shamengxin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsulClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" />
+      <module name="springcloud_03consulclient" />
+      <selectedOptions>
+        <option name="vmParameters" />
+      </selectedOptions>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shamengxin.ConsulClientApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shamengxin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaClientApplication 8990" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="springcloud_02eureka_client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shamengxin.EurekaClientApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8990" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shamengxin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication 8761" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="springcloud_01eureka_server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shamengxin.EurekaServerApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8761" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shamengxin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication 8762" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="springcloud_01eureka_server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shamengxin.EurekaServerApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8762" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shamengxin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication 8763" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="springcloud_01eureka_server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shamengxin.EurekaServerApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8763" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shamengxin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrdersApplication 9990" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="springcloud_05orders" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shamengxin.OrdersApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=9990" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shamengxin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrdersApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" />
+      <module name="springcloud_05orders" />
+      <selectedOptions>
+        <option name="vmParameters" />
+      </selectedOptions>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shamengxin.OrdersApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shamengxin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductApplication 8799" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="springcloud_07product" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shamengxin.ProductApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8799" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shamengxin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" />
+      <module name="springcloud_07product" />
+      <selectedOptions>
+        <option name="vmParameters" />
+      </selectedOptions>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shamengxin.ProductApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shamengxin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsersApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" />
+      <module name="springcloud_04users" />
+      <selectedOptions>
+        <option name="vmParameters" />
+      </selectedOptions>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shamengxin.UsersApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shamengxin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <selectedOptions>
+        <option name="vmParameters" />
+      </selectedOptions>
+      <option name="SPRING_BOOT_MAIN_CLASS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="f2fd706b-9f03-4fb8-8fed-019399b96c07" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="65373" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.EurekaServerApplication 8761" />
+      <item itemvalue="Spring Boot.EurekaServerApplication 8762" />
+      <item itemvalue="Spring Boot.EurekaServerApplication 8763" />
+      <item itemvalue="Spring Boot.EurekaClientApplication 8990" />
+      <item itemvalue="Spring Boot.OrdersApplication 9990" />
+      <item itemvalue="Spring Boot.ProductApplication 8799" />
+      <item itemvalue="Spring Boot.CategoryApplication" />
+      <item itemvalue="Spring Boot.ProductApplication" />
+      <item itemvalue="Spring Boot.ConsulClientApplication" />
+      <item itemvalue="Spring Boot.OrdersApplication" />
+      <item itemvalue="Spring Boot.UsersApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.CategoryApplication" />
+        <item itemvalue="Spring Boot.ProductApplication" />
+        <item itemvalue="Spring Boot.UsersApplication" />
+        <item itemvalue="Spring Boot.OrdersApplication" />
+        <item itemvalue="Spring Boot.ConsulClientApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="b22d0ddb-099e-4e9c-b951-94683801b09b" name="变更" comment="" />
+      <created>1680962521224</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680962521224</updated>
+      <workItem from="1680962523132" duration="116000" />
+      <workItem from="1681024102384" duration="9418000" />
+      <workItem from="1681037288873" duration="15774000" />
+    </task>
+    <task id="LOCAL-00001" summary="4.8">
+      <created>1680962554496</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680962554496</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="4.8" />
+    <option name="LAST_COMMIT_MESSAGE" value="4.8" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
 </project>
