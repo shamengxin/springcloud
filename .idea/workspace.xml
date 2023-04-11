@@ -4,43 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b22d0ddb-099e-4e9c-b951-94683801b09b" name="变更" comment="4.8">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_parent/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_01eureka_server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_01eureka_server/src/main/java/com/shamengxin/EurekaServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_01eureka_server/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_02eureka_client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_02eureka_client/src/main/java/com/shamengxin/EurekaClientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_02eureka_client/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_03consulclient/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_03consulclient/src/main/java/com/shamengxin/ConsulClientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_03consulclient/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_04users/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_04users/src/main/java/com/shamengxin/UsersApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_04users/src/main/java/com/shamengxin/config/BeansConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_04users/src/main/java/com/shamengxin/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_04users/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_05orders/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_05orders/src/main/java/com/shamengxin/OrdersApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_05orders/src/main/java/com/shamengxin/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_05orders/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_06category/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_06category/src/main/java/com/shamengxin/CategoryApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_06category/src/main/java/com/shamengxin/controller/CategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_06category/src/main/java/com/shamengxin/entity/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_06category/src/main/java/com/shamengxin/feiginclient/ProductClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_06category/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_07product/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_07product/src/main/java/com/shamengxin/ProductApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_07product/src/main/java/com/shamengxin/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_07product/src/main/java/com/shamengxin/entity/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_07product/src/main/java/com/shamengxin/vos/CollectionVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_07product/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="b22d0ddb-099e-4e9c-b951-94683801b09b" name="变更" comment="4.10">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_08hystrix/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_08hystrix/src/main/java/com/shamengxin/HystrixApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_08hystrix/src/main/java/com/shamengxin/config/BeansConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_08hystrix/src/main/java/com/shamengxin/controller/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_08hystrix/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_09openfeign_hystrix/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_09openfeign_hystrix/src/main/java/com/shamengxin/OpenFeignHystrixApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_09openfeign_hystrix/src/main/java/com/shamengxin/controller/TestDemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_09openfeign_hystrix/src/main/java/com/shamengxin/feignclients/HystrixClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_09openfeign_hystrix/src/main/java/com/shamengxin/feignclients/HystrixClientFallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_09openfeign_hystrix/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_10hystrix_dashboard/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_10hystrix_dashboard/src/main/java/com/shamengxin/HystrixDashBoardApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_10hystrix_dashboard/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_11gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_11gateway/src/main/java/com/shamengxin/GatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_11gateway/src/main/java/com/shamengxin/config/GatewayConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_11gateway/src/main/java/com/shamengxin/filter/CustomerGlobalFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_11gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_11gateway/src/test/java/com/shamengxin/TestDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_12configserver/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_12configserver/src/main/java/com/shamengxin/ConfigServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_12configserver/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_13configclient/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_13configclient/src/main/java/com/shamengxin/ConfigClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_13configclient/src/main/java/com/shamengxin/controller/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_13configclient/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_13configclient/src/test/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_13configclient/src/test/application-prod.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_13configclient/src/test/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud_parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud_parent/springcloud_07product/src/main/java/com/shamengxin/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_parent/springcloud_07product/src/main/java/com/shamengxin/controller/ProductController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +69,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="$PROJECT_DIR$/../../Maven/apache-maven-3.8.7" />
+        <option name="useMavenConfig" value="true" />
         <option name="userSettingsFile" value="B:\Maven\apache-maven-3.8.7\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -96,7 +98,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "B:/code/springcloud/springcloud_parent/springcloud_05orders/src/main/resources",
+    "last_opened_file_path": "B:/code/springcloud/springcloud_parent/springcloud_13configclient/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -104,8 +106,8 @@
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reactor",
-    "spring.configuration.checksum": "38a4be43d36e589a32fc67f9f9ca3541",
+    "settings.editor.selected.configurable": "spring",
+    "spring.configuration.checksum": "a82da15811052634ceed62a914f41fcc",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -114,7 +116,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="B:\code\springcloud\springcloud_parent\springcloud_13configclient\src\main\resources" />
       <recent name="B:\code\springcloud\springcloud_parent\springcloud_05orders\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="B:\code\springcloud\springcloud_parent\springcloud_13configclient\src\test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -124,7 +130,23 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ProductApplication 8799">
+  <component name="RunManager" selected="Spring Boot.ConfigClientApplication">
+    <configuration name="TestDate.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springcloud_11gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shamengxin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shamengxin" />
+      <option name="MAIN_CLASS_NAME" value="com.shamengxin.TestDate" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CategoryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="ACTIVE_PROFILES" />
       <module name="springcloud_06category" />
@@ -142,13 +164,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsulClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="ConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="ACTIVE_PROFILES" />
-      <module name="springcloud_03consulclient" />
+      <module name="springcloud_13configclient" />
       <selectedOptions>
         <option name="vmParameters" />
       </selectedOptions>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shamengxin.ConsulClientApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shamengxin.ConfigClientApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shamengxin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" />
+      <module name="springcloud_12configserver" />
+      <selectedOptions>
+        <option name="vmParameters" />
+      </selectedOptions>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shamengxin.ConfigServerApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.shamengxin.*" />
@@ -219,11 +258,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrdersApplication 9990" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="ACTIVE_PROFILES" />
-      <module name="springcloud_05orders" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shamengxin.OrdersApplication" />
-      <option name="VM_PARAMETERS" value="-Dserver.port=9990" />
+      <module name="springcloud_11gateway" />
+      <selectedOptions>
+        <option name="vmParameters" />
+      </selectedOptions>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shamengxin.GatewayApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.shamengxin.*" />
@@ -234,13 +275,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrdersApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="HystrixApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="ACTIVE_PROFILES" />
-      <module name="springcloud_05orders" />
+      <module name="springcloud_08hystrix" />
       <selectedOptions>
         <option name="vmParameters" />
       </selectedOptions>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shamengxin.HystrixApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shamengxin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrdersApplication 9990" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="springcloud_05orders" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.shamengxin.OrdersApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=9990" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.shamengxin.*" />
@@ -266,30 +322,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ACTIVE_PROFILES" />
       <module name="springcloud_07product" />
-      <selectedOptions>
-        <option name="vmParameters" />
-      </selectedOptions>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.shamengxin.ProductApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.shamengxin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UsersApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <option name="ACTIVE_PROFILES" />
-      <module name="springcloud_04users" />
-      <selectedOptions>
-        <option name="vmParameters" />
-      </selectedOptions>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shamengxin.UsersApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.shamengxin.*" />
@@ -388,25 +424,27 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.TestDate.test" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
       <item itemvalue="Spring Boot.EurekaServerApplication 8761" />
       <item itemvalue="Spring Boot.EurekaServerApplication 8762" />
       <item itemvalue="Spring Boot.EurekaServerApplication 8763" />
       <item itemvalue="Spring Boot.EurekaClientApplication 8990" />
       <item itemvalue="Spring Boot.OrdersApplication 9990" />
       <item itemvalue="Spring Boot.ProductApplication 8799" />
-      <item itemvalue="Spring Boot.CategoryApplication" />
       <item itemvalue="Spring Boot.ProductApplication" />
-      <item itemvalue="Spring Boot.ConsulClientApplication" />
-      <item itemvalue="Spring Boot.OrdersApplication" />
-      <item itemvalue="Spring Boot.UsersApplication" />
+      <item itemvalue="Spring Boot.ConfigClientApplication" />
+      <item itemvalue="Spring Boot.ConfigServerApplication" />
+      <item itemvalue="Spring Boot.HystrixApplication" />
+      <item itemvalue="Spring Boot.CategoryApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ConfigClientApplication" />
+        <item itemvalue="Spring Boot.ConfigServerApplication" />
+        <item itemvalue="JUnit.TestDate.test" />
         <item itemvalue="Spring Boot.CategoryApplication" />
-        <item itemvalue="Spring Boot.ProductApplication" />
-        <item itemvalue="Spring Boot.UsersApplication" />
-        <item itemvalue="Spring Boot.OrdersApplication" />
-        <item itemvalue="Spring Boot.ConsulClientApplication" />
+        <item itemvalue="Spring Boot.HystrixApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -420,7 +458,10 @@
       <updated>1680962521224</updated>
       <workItem from="1680962523132" duration="116000" />
       <workItem from="1681024102384" duration="9418000" />
-      <workItem from="1681037288873" duration="15774000" />
+      <workItem from="1681037288873" duration="15945000" />
+      <workItem from="1681102287046" duration="6041000" />
+      <workItem from="1681123421146" duration="10457000" />
+      <workItem from="1681134929594" duration="40000" />
     </task>
     <task id="LOCAL-00001" summary="4.8">
       <created>1680962554496</created>
@@ -429,7 +470,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680962554496</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="4.10">
+      <created>1681057536852</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681057536852</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -448,7 +496,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="4.8" />
-    <option name="LAST_COMMIT_MESSAGE" value="4.8" />
+    <MESSAGE value="4.10" />
+    <option name="LAST_COMMIT_MESSAGE" value="4.10" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

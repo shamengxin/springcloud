@@ -7,6 +7,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpServletRequest;
 import java.util.*;
 
 @RestController
@@ -90,12 +91,16 @@ public class ProductController {
     @GetMapping("/product")
     public String product() throws InterruptedException {
         log.info("进入商品服务。。。。。");
-        Thread.sleep(2000);
+        // Thread.sleep(2000);
         return "product ok,当前提供服务端口："+port;
     }
 
     @GetMapping("/list")
-    public String list(){
+    public String list(HttpServletRequest request,String color){
+        String header = request.getHeader("User-Name");
+        System.out.println("获取请求头信息"+header);
+        System.out.println("获取对应的请求参数"+color);
+
         log.info("商品列表服务");
         return "list ok当前提供服务端口："+port;
     }

@@ -16,6 +16,12 @@
         <module>springcloud_05orders</module>
         <module>springcloud_06category</module>
         <module>springcloud_07product</module>
+        <module>springcloud_08hystrix</module>
+        <module>springcloud_09openfeign_hystrix</module>
+        <module>springcloud_10hystrix_dashboard</module>
+        <module>springcloud_11gateway</module>
+        <module>springcloud_12configserver</module>
+        <module>springcloud_13configclient</module>
     </modules>
 
     <!--继承springboot的父项目-->

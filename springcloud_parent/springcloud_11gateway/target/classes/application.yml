@@ -1,0 +1,39 @@
+server:
+  port: 7979
+
+spring:
+  application:
+    name: GATEWAY
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+    gateway:
+      routes:
+        - id: category_router #路由对象唯一标识
+#          uri: http://localhost:8787 #用来书写类别服务地址
+          uri: lb://CATEGORY
+          predicates:  #断言 用来配置路由规则
+            - Path=/category
+
+        - id: product_router #路由对象唯一标识
+#          uri: http://localhost:8788 #用来书写类别服务地址
+          uri: lb://PRODUCT  #实现请求的负载均衡
+          predicates:
+            - Path=/list
+#            - After=2023-04-10T19:35:35.042+08:00[Asia/Shanghai]
+#            - Before=2023-04-10T19:36:10.042+08:00[Asia/Shanghai]
+#            - Between=2023-04-10T19:36:10.042+08:00[Asia/Shanghai],2023-04-10T19:37:40.042+08:00[Asia/Shanghai]
+#            - Cookie=username,shamengxin
+#            - Cookie=name,[A-Za-z0-9]+
+#            - Header=X-Request-Id, \d+
+            - Method=GET
+          filters:
+            - AddRequestHeader=User-Name,shamengxin
+            - AddRequestParameter=color, blue
+            - AddResponseHeader=X-Response-Red, AAA
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"   #开启所有web端点暴露
