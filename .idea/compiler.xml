@@ -20,6 +20,7 @@
         <module name="springcloud_07product" />
         <module name="springcloud_08hystrix" />
         <module name="springcloud_13configclient" />
+        <module name="springcloudalibaba_parent" />
       </profile>
     </annotationProcessing>
   </component>
@@ -39,6 +40,7 @@
       <module name="springcloud_12configserver" options="-parameters" />
       <module name="springcloud_13configclient" options="-parameters" />
       <module name="springcloud_parent" options="" />
+      <module name="springcloudalibaba_parent" options="-parameters" />
     </option>
   </component>
 </project>

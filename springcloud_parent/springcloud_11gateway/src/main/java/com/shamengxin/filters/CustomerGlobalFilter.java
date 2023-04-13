@@ -1,4 +1,4 @@
-package com.shamengxin.filter;
+package com.shamengxin.filters;
 
 import org.springframework.cloud.gateway.filter.GatewayFilterChain;
 import org.springframework.cloud.gateway.filter.GlobalFilter;
